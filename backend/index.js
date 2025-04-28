@@ -26,6 +26,8 @@ app.get('/', (request, response) => {
   return response.status(234).send('Welcome To MERN Stack Tutorial');
 });
 
+console.log('Hello World')
+
 app.use('/books', booksRoute);
 
 mongoose
