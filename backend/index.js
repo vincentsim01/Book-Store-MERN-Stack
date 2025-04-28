@@ -26,7 +26,11 @@ app.get('/', (request, response) => {
   return response.status(234).send('Welcome To MERN Stack Tutorial');
 });
 
+<<<<<<< HEAD
 console.log('Hello Dunia');
+=======
+console.log('Hello World')
+>>>>>>> newbranch
 
 app.use('/books', booksRoute);
 
